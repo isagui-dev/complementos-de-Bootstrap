@@ -1,0 +1,107 @@
+/* ======== ESTILOS GENERALES ======== */
+body {
+  background-color: #f8f9fa; /* Fondo gris claro */
+  color: #212529;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  padding-top: 50px;
+}
+
+/* Títulos principales */
+h1 {
+  font-weight: 700;
+  color: #0d6efd; /* Azul Bootstrap */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Subtítulos y descripciones */
+h4 {
+  color: #495057;
+  font-weight: 400;
+  text-align: justify;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Separadores entre secciones */
+.container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 60px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Centrar imágenes */
+img, svg {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Botones generales */
+.btn {
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+/* Carousel */
+.carousel-item img {
+  border-radius: 15px;
+}
+
+/* List group */
+.list-group {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 15px;
+}
+
+/* Offcanvas */
+.offcanvas {
+  background-color: #f1f3f5;
+}
+
+/* Cards */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Toast */
+.toast {
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ======== RESPONSIVE ======== */
+@media (max-width: 768px) {
+  .container {
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+}
